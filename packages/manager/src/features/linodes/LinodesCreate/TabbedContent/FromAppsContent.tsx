@@ -40,6 +40,7 @@ import { sendMarketplaceSearchEvent } from 'src/utilities/ga';
 type ClassNames = 'main' | 'sidebar' | 'searchAndFilter' | 'search' | 'filter';
 
 const appCategories = [
+  'One-Click Clusters',
   'Control Panels',
   'Databases',
   'Development',

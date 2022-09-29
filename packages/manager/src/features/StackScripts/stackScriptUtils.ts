@@ -116,6 +116,7 @@ export const baseApps = {
   '1037036': 'Budibase',
   '1037037': 'HashiCorp Nomad',
   '1037038': 'HashiCorp Vault',
+  '1067004': 'MongoDB Cluster',
 };
 
 const oneClickFilter = [

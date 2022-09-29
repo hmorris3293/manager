@@ -22,6 +22,7 @@ export interface Colors {
 }
 
 export type AppCategory =
+  | 'One-Click Clusters'
   | 'Control Panels'
   | 'Databases'
   | 'Development'
@@ -36,22 +37,21 @@ export type AppCategory =
 
 export const oneClickApps: OCA[] = [
   {
-    name: 'aaPanel',
-    categories: ['Control Panels'],
-    description: `Feature-rich alternative control panel for users who need critical control panel functionality but don’t need to pay for more niche premium features. aaPanel is open source and consistently maintained with weekly updates.`,
-    summary:
-      'Popular open source free control panel with robust features and a mobile app.',
+    name: 'MongoDB Cluster',
+    categories: ['One-Click Clusters'],
+    description: `MongoDB provides an alternative to traditional relational database management systems (RDBMS). In addition to its schema-free design and scalable architecture, MongoDB provides JSON output and specialized language-specific bindings that make it particularly attractive for use in custom application development and rapid prototyping.`,
+    summary: `MongoDB is a database engine that provides access to non-relational, document-oriented databases.`,
     related_guides: [
       {
-        title: 'Deploying aaPanel through the Linode Marketplace',
-        href: 'https://www.linode.com/docs/guides/aapanel-marketplace-app/',
+        title: 'Deploying MongoDB with Marketplace Apps',
+        href: 'https://www.linode.com/docs/guides/mongodb-marketplace-app/',
       },
     ],
-    website: 'https://www.aapanel.com/reference.html',
-    logo_url: 'aapanel.svg',
+    website: 'https://www.mongodb.com/',
+    logo_url: 'MongodbCluster.svg',
     colors: {
-      start: '20a53a',
-      end: 'a3a3a3',
+      start: '28aa52',
+      end: '136149',
     },
   },
   {
