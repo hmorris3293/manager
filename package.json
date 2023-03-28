@@ -69,5 +69,11 @@
   "version": "0.0.0",
   "volta": {
     "node": "18.14.1"
+  },
+  "dependencies": {
+    "@types/react": "^17",
+    "immer": "^9.0.6",
+    "node": "^19.8.1",
+    "ua-parser-js": "^0.7.33"
   }
 }
